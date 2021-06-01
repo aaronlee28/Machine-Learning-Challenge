@@ -31,9 +31,7 @@ Use GridSearch to tune model parameters.
 
    
 ## Findings: 
-Of the 6 models, Random Forests has the highest accuracy among all with 0.91. All of the models except for the KNN would be a great model to predict new exoplanets, because KNN has a fairly lower score compared to the other models. I am certain that deep learning would be better than SVM given that it has data and density added to the model. 
-
-
+Of the 6 models, Random Forests has the highest accuracy among all with 0.91. All of the models except for the KNN would be a great model to predict new exoplanets, because KNN has a fairly lower score compared to the other models. I am certain that deep learning would be better than SVM if it has more data and density added to the model. I also think that KNN would perform better and SVM would perform worse as well given more data, since it would be easier to group data and harder to find the optimal hyperplane since all the data would be spreaded out more evenly. 
 
 
 
