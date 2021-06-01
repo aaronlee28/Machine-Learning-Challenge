@@ -20,15 +20,15 @@ Use GridSearch to tune model parameters.
 
 
 Results: 
+| Models | Accuracy | Others |
+| --- | --- | --- |
+| Support Vector Machine | 0.9 | --- |
+| Random Forests | 0.91 | --- |
+| Logistic Regression | 0.88 | --- |
+| KNN | 0.82 | --- |
+| Decision Tree | 0.86 | --- |
+| Deep Learning | 0.89 | Loss: 0.2626 |
 
-List<String> headersList = Arrays.asList("Models", "Accuracy", "Others");
-List<List<String>> rowsList = Arrays.asList(
-        Arrays.asList("Support Vector Machine","0.9", "-",),
-        Arrays.asList("Random Forests","0.91", "-"),
-        Arrays.asList("Logistic Regression","0.88", "-"),
-        Arrays.asList("KNN","0.82", "-"),
-        Arrays.asList("Decision Tree","0.86", "-"),
-        Arrays.asList("Deep Learning", "0.89","Loss: 0.2626",)
    
 
 Findings: 
